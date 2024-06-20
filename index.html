@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Khodam Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CEK KHODAM ONLINE</h1>
+        <input type="text" id="username" placeholder="Masukkan nama kamu">
+        <div class="buttons">
+            <button onclick="generateKhodamName()">Cek</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+        <div id="loading" style="display: none;">Dukun online sedang menerawang......</div>
+        <p id="khodamName"></p>
+        <img id="khodamImage" src="" alt="" style="display: none;">
+        <p id="khodamDescription"></p>
+        <h5>made by: mamatcoding</h5>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
